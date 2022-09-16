@@ -1,0 +1,2 @@
+# StudyHelper
+Projeto de uma ferramenta de estudo básico de portugues e matematica com o objetivo de ser uma das soluções de Objetivo de Desenvolvimento Sustentável da ONU na seção de Educação e Qualidade numero 4.6 que diz: "Até 2030, garantir que todos os jovens e uma substancial proporção dos adultos, homens e mulheres  estejam alfabetizados e tenham adquirido o conhecimento básico de matemática".
