@@ -5,3 +5,5 @@ Projeto de uma ferramenta de estudo básico de portugues e matematica com o obje
 Trello: https://trello.com/invite/b/lvD3lSMM/5d4dc2f558adde0b22301ce1dd602229/studyhelper
 <br>
 Documentação MVP1: https://docs.google.com/presentation/d/1ZuBlmblBZEBfSj-t6JmonffLfFClIVmwgoSUQUkPr5o/edit?usp=sharing
+<br>
+Prototipação Figma: https://www.figma.com/file/kKcnNVEvecC6ZGbjL2RBA3/StudyHelper?node-id=5%3A197
