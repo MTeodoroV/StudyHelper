@@ -1,9 +1,7 @@
 import db from '../config/database';
 
 export function list(){
-    const query = `SELECT E.id, E.description, M.tittle, 
-    E.create_at, E.update_at FROM exercise E 
-    INNER JOIN module as M ON E.module_id = M.id`;
+    const query = `SELECT * FROM tip`;
 
     return new Promise((resolve, reject) => {
         db.query(query, (error, result) => {
@@ -17,9 +15,7 @@ export function list(){
 }
 
 export function get(id){
-    const query = `SELECT E.description, M.tittle, 
-    E.create_at, E.update_at FROM exercise E 
-    INNER JOIN module as M ON E.module_id = M.id WHERE E.id=${id}`;
+    const query = `SELECT * FROM tip WHERE id=${id}`;
 
     return new Promise((resolve, reject) => {
         db.query(query, (error, result) => {
@@ -32,9 +28,8 @@ export function get(id){
     })
 }
 
-export function add(description, module_id){
-    const query = `INSERT INTO exercise(description, module_id)
-    VALUES('${description}', ${module_id})`;
+export function add(tip, exercise_id){
+    const query = `INSERT INTO tip(tip, exercise_id) VALUES('${tip}', ${exercise_id})`;
 
     return new Promise((resolve, reject) => {
         db.query(query, (error, result) => {
@@ -47,8 +42,8 @@ export function add(description, module_id){
     })
 }
 
-export function update(id, description){
-    const query = `UPDATE exercise SET description='${description}' WHERE id=${id}`;
+export function update(id, tip){
+    const query = `UPDATE tip SET tip='${tip}' WHERE id=${id}`;
 
     return new Promise((resolve, reject) => {
         db.query(query, (error, result) => {
@@ -62,7 +57,7 @@ export function update(id, description){
 }
 
 export function remove(id){
-    const query = `DELETE FROM exercise WHERE id=${id}`;
+    const query = `DELETE FROM tip WHERE id=${id}`;
 
     return new Promise((resolve, reject) => {
         db.query(query, (error, result) => {

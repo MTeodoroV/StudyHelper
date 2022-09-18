@@ -7,6 +7,7 @@ import Matter from './routes/matter';
 import Module from './routes/module';
 import Exercise from './routes/exercise';
 import Answer from './routes/answer';
+import Tip from './routes/tip';
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -19,5 +20,6 @@ app.use('/matter', Matter);
 app.use('/module', Module);
 app.use('/exercise', Exercise);
 app.use('/answer', Answer);
+app.use('/tip', Tip);
 
 app.listen(3000)
