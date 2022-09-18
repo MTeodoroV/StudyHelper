@@ -8,8 +8,8 @@ class AuthController {
 			if (bcrypt.compareSync(req.body.password, response.password)) {
 				const token = JWT.sign({
 					id: response.id,
-					access: response.level
-				}, process.env.JWT_KEY, { expiresIn: 60 * 10 });
+					access: response.role
+				}, process.env.JWT_KEY, { expiresIn: 600 * 10 });
 
 				res.status(200).send({ auth: true, token });
 			} else {
