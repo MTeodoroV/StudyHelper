@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+input {
+    width: 22rem;
+    height: 2rem;
+    border: 1px solid #25C435;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.teste:focus {
+    border: none;
+}

@@ -1,0 +1,22 @@
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 17%;
+}
+
+form {
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+}
+
+.Cadastro{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Cadastro > a{
+    margin-left: 0.3rem;
+}
