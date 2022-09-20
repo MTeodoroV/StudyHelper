@@ -11,13 +11,15 @@
 }
 
 input {
-    width: 22rem;
+    width: 30em;
     height: 2rem;
     border: 1px solid #25C435;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
 }
 
-.teste:focus {
-    border: none;
+.inputField:focus {
+    outline: none !important;
+    border-color: #25C435;
+    box-shadow: 0 0 4px #25C435;
 }
