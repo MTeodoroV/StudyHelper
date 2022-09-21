@@ -1,0 +1,63 @@
+.formRegister{
+    display: flex;
+}
+
+.fieldForm {
+    position: absolute; 
+    right: 12rem;
+    margin-top: 2rem;
+}
+
+.fields {
+    background-color: red !important;
+}
+
+.img {
+    position: relative;
+    padding-top: 10rem;
+    left: 9rem;
+    width: 30rem;
+}
+
+.photoIcon {
+    position: relative;
+    margin-top: 4rem;
+    left: 26.5rem;
+    border-radius: 25rem;
+    width: 8rem;
+}
+
+.buttonRegister {
+    background-color: #55F565;
+    border: 1px #55F565 solid;
+    width: 14rem;
+    height: 2rem;
+    border-radius: 30px;
+    position: relative;
+    left: 5.5rem;
+}
+
+.arrayPhotos{
+    width: 1px;
+    height: 1px;
+}
+
+.containerPhotos {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 4rem;
+    left: 26.5rem;
+    border-radius: 25rem;
+    width: 8rem;
+  }
+  
+.teste{
+    width: 4em;
+    height: 4em;
+    border-radius: 35px;
+    margin-left: 1rem;
+    transition: 300ms all ease-in-out;
+    cursor: pointer;
+  }
+  

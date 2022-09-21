@@ -4,7 +4,7 @@ import './input.css'
 export const FieldInput = (props) => {
   return (
     <div className='container'>
-        <div className="login">
+        <div>
             <input className="inputField" placeholder={props.placeholder}/>
         </div>
     </div>
