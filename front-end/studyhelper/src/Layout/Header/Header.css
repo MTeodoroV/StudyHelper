@@ -1,0 +1,159 @@
+.header {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    background-color: #183C4F;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.search{
+    border-radius: 3rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+    border: none;
+    font-weight: bold;
+}
+
+.search:focus{
+    outline: none !important;
+    box-shadow: 0 0 2px white;
+}
+
+.materia {
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 19rem;
+    margin-right: auto;
+}
+
+.materia > button {
+    outline: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pt:hover {
+    outline: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    color: #FFA500;
+    font-size: 1.5rem;
+}
+
+.pt {
+    margin-right: 2rem;
+}
+
+.math:hover {
+    outline: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    color: #00BFFF;
+    font-size: 1.5rem;
+}
+
+.profilePhoto {
+    position: relative;
+    border-radius: 3rem;
+    right: 2rem;
+    height: 3.2rem;
+    top: 0.3rem;
+    cursor: pointer;
+    border: 2px solid black;
+}
+  
+  .dropdown {
+    position: relative;
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    text-align: right;
+  }
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    background-color: #183C4F;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #55F565; color: black;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #183C4F;}
+
+.ancora{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+
+
+ /*Header interno*/
+ .internalMateria {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+    margin-right: auto;
+}
+
+.internalMateria > button {
+    outline: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.exercisePT {
+    color: #FFA500 !important;
+}
+
+.exerciseMath {
+    color: #00BFFF !important;
+}
+
+.backButton:hover {
+    outline: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    color: #45C75F;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.backButton {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
