@@ -1,4 +1,4 @@
-.ExerciseTitle {
+.ExerciseAnswerTitle {
     display: flex;
     width: 25rem;
     height: 3.5rem;
@@ -16,7 +16,7 @@
     bottom: 2rem;
 }
 
-.ExerciseDescription {
+.ExerciseAnswerDescription {
     width: 50rem;
     height: auto;
     background-color: #0F6D91;
@@ -33,19 +33,4 @@
     bottom: 2rem;
     top: 0.5rem;
     text-align: justify;
-}
-
-.buttonAnswer {
-    background: none;
-    outline: inherit;
-    border: none;
-}
-
-.iconAnswer {
-    display: block;
-    margin-left: 48rem;
-    color: #45C75F;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    cursor: pointer;
 }
