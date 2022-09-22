@@ -1,14 +1,13 @@
 import React, { useState } from 'react'
 import { FieldInput } from '../Input/input'
 import cadastro from '../../public/img/cadastro.png'
-import iconStudyHelper from '../../public/img/iconStudyHelper.png'
 import emailMask from './Mask'
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Register.css'
 
 export const Register = () => {
-    const photos = ['']
+    const photos = ['https://i.imgur.com/0nJ6mOe.png', 'https://i.imgur.com/AbjupGx.png', 'https://i.imgur.com/cpPs0UN.png', 'https://i.imgur.com/Euhyyyp.png']
     const [email, setEmail] = useState("");
     const [photo, setPhoto] = useState("");
 

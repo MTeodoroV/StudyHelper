@@ -1,0 +1,18 @@
+.editButtonModule{
+    width: 4rem;
+    height: 4rem;
+    outline: none;
+    background-repeat: no-repeat;
+    color: #55F565;
+    font-weight: bold;
+    cursor: pointer;
+    right: 0;
+    margin-right: 3.5rem;
+    bottom: 3rem;
+    font-size: 30px;
+    display: block;
+    position: fixed;
+    background-color: #183C4F;
+    border: 3px solid black;
+    border-radius: 60px;
+}
