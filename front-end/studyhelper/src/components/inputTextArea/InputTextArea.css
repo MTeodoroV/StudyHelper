@@ -1,0 +1,13 @@
+.inputTextArea {
+    width: 30em;
+    height: 10rem;
+    border: 1px solid #25C435;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.inputTextArea:focus {
+    outline: none !important;
+    border-color: #25C435;
+    box-shadow: 0 0 4px #25C435;
+}

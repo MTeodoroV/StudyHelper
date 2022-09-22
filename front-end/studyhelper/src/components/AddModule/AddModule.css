@@ -1,0 +1,21 @@
+.sectionModule {
+    display: flex;
+    justify-content: center;
+}
+
+.formModule > FieldInput {
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.submit{
+    display: block;
+    background-color: #55F565;
+    border: 1px #55F565 solid;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+}

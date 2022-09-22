@@ -1,0 +1,46 @@
+.inputSelectField {
+    width: 30em;
+    height: 2rem;
+    border: 1px solid #25C435;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.inputSelectField:focus {
+    outline: none !important;
+    border-color: #25C435;
+    box-shadow: 0 0 4px #25C435;
+}
+
+.selectOption {
+    width: 30rem;
+    height: 2rem;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 1.5rem;  
+    border: none;
+}
+
+.selectOption:hover {
+    width: 30em;
+    height: 2rem;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 1.5rem;  
+    border: none;
+    color: red;
+}
+
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }

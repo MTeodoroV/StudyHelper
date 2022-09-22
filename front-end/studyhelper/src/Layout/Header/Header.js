@@ -5,7 +5,7 @@ import { FaUserEdit } from 'react-icons/fa';
 
 import './Header.css'
 
-export const Header = () => {
+export const Header = (props) => {
   const teste = 1;
   
   if(teste == 0){
@@ -29,7 +29,7 @@ export const Header = () => {
     return (
       <header className='header'>
           <div className="internalMateria">
-              <button className='exercisePT'>Português - Verbo</button>
+              <button className='exercisePT'>{props.title}</button>
               <button className='backButton'>Voltar</button>
           </div>
           <div class="dropdown" style={{ float: "left"}}>
