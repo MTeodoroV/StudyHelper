@@ -2,12 +2,13 @@
 //import {RegisterScreen} from "./Pages/Register"
 //import { HomeScreen } from "./Pages/Home";
 //import { ExerciseScreen } from "./Pages/Exercise";
-import { ExerciseAnswerScreen } from "./Pages/ExerciseAnswer";
+//import { ExerciseAnswerScreen } from "./Pages/ExerciseAnswer";
+import { AddModuleScreen } from "./Pages/AddModule";
 
 function App() {
   return (
     <div className="App">
-      <ExerciseAnswerScreen/>
+      <AddModuleScreen/>
     </div>
   );
 }
